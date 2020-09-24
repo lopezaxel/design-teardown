@@ -1,0 +1,57 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.smashing-logo {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 50px;
+  width: 140px;
+}
+
+.main-navbar {
+  display: flex;
+  align-items: center;
+}
+
+.main-navbar li {
+  margin: 15px;
+  height: 30px;
+  width: 90px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.main-navbar .big-link {
+  width: 120px;
+}
+
+.main-navbar .last-btn {
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+  width: 340px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Main content */
+
+
